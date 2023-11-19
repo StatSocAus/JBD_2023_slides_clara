@@ -1,0 +1,141 @@
+---
+title: ""
+subtitle: ""
+author: ""
+format: 
+  revealjs:
+    auto-slide: 10000
+    loop: true
+    slide-level: 2
+    embed-resources: true
+    css: styles.css
+---
+
+## Gold Sponsors {style="font-size: 40px"}
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/ssa.png){width=5cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+<div style="margin-right: -200px;">Statistical Society of Australia, Central Council</div>
+::::
+:::
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/abs.png){width=4.5cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+Australian Bureau of Statistics
+::::
+:::
+
+::: {.columns}
+:::: {.column width="50%"}
+<div style="margin-left: -15px;">![](logo/UDASH.jpg){width=5cm}</div>
+::::
+
+:::: {.column width="50%"}
+<br>
+<div style="margin-right: -200px;">UNSW Data Science Hub (uDASH)</div>
+::::
+:::
+
+## Sponsors {style="font-size: 30px"}
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/mq.png){width=7cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+<div style="margin-right: -200px;">School of Mathematical and Physical Sciences</div>
+::::
+:::
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/unsw.png){width=7cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+School of Mathematics and Statistics
+::::
+:::
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/Usyd.png){width=7cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+<br>
+<div style="margin-right: -200px;">The University of Sydney Business School</div>
+::::
+:::
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/uow_niasra.png){width=14cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+<div style="margin-right: -200px;">National Institute for Applied Statistics Research Australia</div>
+::::
+:::
+
+## Sponsors {style="font-size: 30px;"}
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/DARE.png){width=10cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+<div style="margin-right: -200px;">The ARC Training Centre in Data Analytics for Resources and Environments</div>
+::::
+:::
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/WSU.png){width=10cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+<div style="margin-right: -200px;">School of Computer, Data and Mathematical Sciences</div>
+::::
+:::
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/Usyd.png){width=8cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+<br>
+School of Mathematics and Statistics
+::::
+:::
+
+::: {.columns}
+:::: {.column width="50%"}
+![](logo/uts.png){width=5cm}
+::::
+
+:::: {.column width="50%"}
+<br>
+School of Public Health
+::::
+:::

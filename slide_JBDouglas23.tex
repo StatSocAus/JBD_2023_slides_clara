@@ -1,0 +1,274 @@
+\documentclass[english]{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+
+\usepackage{amsmath,amssymb}
+\usepackage{float}
+\usepackage{algorithm,algorithmic}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{multirow}
+\usepackage{subfigure,epsfig}
+
+\usepackage{mathptmx}
+\usepackage{babel}
+\usepackage{natbib}
+\usepackage{bigints}
+\usepackage{hyperref}
+
+\usepackage[export]{adjustbox}
+
+\usepackage{algorithm,algorithmic}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[24th JB Douglas]{The 24th Annual J.B. Douglas Postgraduate Awards Day} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author[C. Grazian]{Clara Grazian} % Your name
+\institute [NSW SSA]% Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+THE STATISTICAL SOCIETY OF AUSTRALIA Inc. \\
+New South Wales Branch \\% Your institution for the title page
+\bigskip
+
+\textit{2:00pm AEST Monday, 22nd November 2023} \\
+\medskip
+\textit{The Cullen Room, The University of Sydney and online (via Zoom)} \\
+
+}
+\date{22 November 2023} % Date, can be changed to a custom date
+
+\begin{document}
+\bibliographystyle{plainnat}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{The Award}
+
+The ``JB Douglas Award'' is an annual event to provide a platform to showcase the depth, breadth and excellence of research performed by postgraduate research students in statistics and related fields within the state. The award is named in honour of Associate Professor Jim Douglas. 
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{Gold Sponsors}
+	
+	\begin{center}
+		\textbf{We wish to recognise and thank the following as sponsors to the event and the winner's prize}
+		
+		\begin{tabular}{c c}
+			\includegraphics[width=2.5cm,valign=m]{logo/ssa.png} & \begin{tabular}[t]{c}
+				Statistical Society of Australia,\\
+				Central Council
+			\end{tabular} \\ 
+			\includegraphics[width=2.5cm,valign=m]{logo/abs.png} & \begin{tabular}[t]{c}
+				Australian Bureau of Statistics
+			\end{tabular} \\
+			\includegraphics[width=2.5cm,valign=m]{logo/UDASH.jpg} & \begin{tabular}[t]{c}
+				UNSW Data Science Hub (uDASH)
+			\end{tabular}
+		\end{tabular}
+	\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{Sponsors}
+	
+	\begin{center}		
+		\begin{tabular}{c c}
+			\includegraphics[width=2.5cm,valign=m]{logo/mq.png} & \begin{tabular}[t]{@{}p{6cm}@{}}
+				\vspace{-15pt}School of Mathematical and Physical Sciences
+			\end{tabular} \\[20pt]
+			\includegraphics[width=2.5cm,valign=m]{logo/unsw.png} & \begin{tabular}[t]{@{}p{6cm}@{}}
+				\vspace{-15pt}School of Mathematics and Statistics
+			\end{tabular} \\[20pt]
+			\includegraphics[width=2.5cm,valign=m]{logo/Usyd.png} & \begin{tabular}[t]{@{}p{6cm}@{}}
+				\vspace{-15pt}The University of Sydney Business School
+			\end{tabular} \\[20pt]
+			\includegraphics[width=5cm,valign=m]{logo/uow_niasra.png} & \begin{tabular}[t]{@{}p{6cm}@{}}
+				\vspace{-15pt}National Institute for Applied Statistics Research Australia
+			\end{tabular}
+		\end{tabular}
+	\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{Sponsors}
+	
+	\begin{center}		
+		\begin{tabular}{c c}
+			\includegraphics[width=2.5cm,valign=m]{logo/DARE.png} & \begin{tabular}[t]{@{}p{7cm}@{}}
+				\vspace{-15pt} The ARC Training Centre in Data Analytics for Resources and Environments
+			\end{tabular} \\[40pt]
+			\includegraphics[width=2.5cm,valign=m]{logo/WSU.png} & \begin{tabular}[t]{@{}p{7cm}@{}}
+				\vspace{-15pt}School of Computer, Data and Mathematical Sciences
+			\end{tabular} \\[30pt]
+			\includegraphics[width=2.5cm,valign=m]{logo/Usyd.png} & \begin{tabular}[t]{@{}p{7cm}@{}}
+				\vspace{-8pt}School of Mathematics and Statistics
+			\end{tabular} \\[30pt]
+			\includegraphics[width=2.5cm,valign=m]{logo/uts.png} & \begin{tabular}[t]{@{}p{7cm}@{}}
+				\vspace{-10pt}School of Public Health
+			\end{tabular}
+		\end{tabular}
+	\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{Rules}
+
+Presentations are evaluated on the basis of
+
+\begin{enumerate}
+    \item \textbf{Originality of the work:} the PhD thesis must show an important contribution to the body of knowledge
+    
+    \smallskip
+    
+    \item \textbf{Impact:} the candidates must describe, during their presentations, how the thesis could be put to a beneficial use. Benefits could be inside (within the research area or within other research areas) and outside academia. 
+
+    \smallskip
+
+    \item \textbf{Quality of the presentation:} presentations must be on time, clear, and well organised; a broad audience with statistical background should be able to understand the presentation.  
+
+	\smallskip
+	
+	\item  \textbf{Ability to reply to questions:} the candidate must show to have a deep knowledge of the presented material, and to be able to contextualise it within the literature. 
+
+\end{enumerate}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{Programme}
+	\footnotesize
+	
+	\textcolor{blue}{2:00 -- 2:10pm:} \textcolor{blue}{Dr Clara Grazian, NSW SSA President - Welcome and Introduction}
+	
+	\smallskip
+	2:10 -- 2:30pm: Yu-Hsiu (Paco) Tseng \textit{Convergence of Particle Flow Inspired by Wasserstein Gradient Flow}
+	
+	\smallskip
+	2:30 -- 2:50pm: Virginia X. He \textit{Bayesian Generalized Additive Model Selection Including a Fast Variational Option}
+	
+	\smallskip
+	2:50 -- 3:10pm: Matthew Sainsbury-Dale \textit{Neural Bayes Estimators for Fast Likelihood-Free Inference}
+	
+	\smallskip
+	3:10 -- 3:30pm: Isha Kharub \textit{Conceptualising Willingness to Accept Social Robots' Recommendations in the Hospitality Industry (WASRR)}
+	
+	\smallskip
+	3:30 -- 3:50pm: Jack Freestone \textit{Semi-Supervised Learning While Controlling the FDR With an Application to Tandem Mass Spectrometry Analysis}
+	
+	\smallskip
+	\textcolor{blue}{3:50 -- 4:05pm:} \textcolor{blue}{Afternoon Tea}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{Programme}
+	\footnotesize
+	
+	4:05 -- 4:25pm: Ngoc Lan Chi (Emma) Nguyen \textit{Structure Learning and Causal Inference in Bayesian Networks}
+	
+	\smallskip
+	4:25 -- 4:45pm: Anant Mathur \textit{New Optimization Methods for Grouped Variable Selection}
+	
+	\smallskip
+	4:45 -- 5:05pm: Annabel Webb \textit{A Maximum Penalised Likelihood Approach for Cox Models With Time-Varying Covariates and Partly-Interval Censored Survival Data}
+	
+	\smallskip
+	5:05 -- 5:25pm: Kieran Luken \textit{A Comparison of Machine Learning Algorithms for the Estimation of Radio Galaxy Redshift for the Evolutionary Map of the Universe Pilot Survey}
+	
+	\smallskip
+	5:25 -- 5:45pm: Md Morshadur Rahman \textit{Regular Blood Donation and the Risk of Mortality: Minimising the Impact of Healthy Donor Effect}
+	
+	\smallskip
+	\textcolor{blue}{5:45 -- 6:00pm:} \textcolor{blue}{Refreshment while the judges retire to deliberate}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\begin{frame}{Programme}
+	
+	\textcolor{blue}{6:00 -- 6:10pm:} \textcolor{blue}{Awards Presentation}
+	
+	\smallskip
+	\textcolor{blue}{6:10 -- 7:00pm:} \textcolor{blue}{Annual Lecture by Professor Sally Cripps}
+	
+	\smallskip
+	\textcolor{blue}{From 7:00pm:} \textcolor{blue}{Annual Dinner}
+	
+	\medskip
+	\textbf{Chair of judges:} Prof. Sally Cripps, Prof. Yanan Fan, and Dr. Clara Grazian
+	
+\end{frame}
+
+\end{document} 
